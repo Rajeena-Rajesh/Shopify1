@@ -1,0 +1,322 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+.nav-link{
+  color: #42474c;
+}
+
+.menu{
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.btn{
+  background-color: #008060;
+  border-radius: 4px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #ffffff;
+   
+    height: 60px;
+    width: 222px;
+}
+.btn :hover{
+  background-color: #004c3f;
+}
+.five{
+  overflow-x: hidden;
+}
+
+.footer1{
+  overflow-x: hidden;
+}
+
+
+.first{
+  margin-top: 93px;
+  overflow-x: hidden;
+}
+
+.first .second{
+  display:flex;  
+}
+
+.abc{
+    display:flex;
+}
+
+
+/*-----------------------------third-section---------------------------------*/
+section-third .container3{
+  padding-top: 51px;
+  background: #f2c7aa;
+}
+
+.one{ font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+font-weight: 400;
+display:flex;
+gap:2em;
+  padding-top: 69px;
+    
+  margin-left: 92px;
+}
+
+@media(max-width:767px){
+  .one{
+    flex-direction: column;
+  }
+}
+
+.headline{
+  font-size:2rem;
+  padding-top:70px;
+  padding-left: 93px;
+  font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-weight: 400;
+  color:  #011a11;
+}
+
+
+/*----------------------------fourth-section---------------------------------*/
+section-four .container{
+  margin-bottom: 50px;
+}
+.content{
+  margin-top: 107px;
+}
+.head-1{
+  margin-top: 30px;
+font-weight:700;
+line-height: 1;
+font-size: 3em;
+}
+
+.head-2{
+  margin-top: 90px;
+  color: #004c3f;
+  font-size: 1.875em;
+  font-weight: 400;
+  font-family: ShopifySans, Helvetica, Arial, sans-serif;
+}
+
+.head-3{
+  margin-top: 30px;
+  font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 1em;
+
+}
+
+.parent_image {
+  margin-top:70px;
+  position:relative;
+}
+.child_image{
+position:absolute;
+
+right: 0px;
+bottom:0px;
+}
+
+.second_body{
+    display:flex; 
+}
+.side{
+    display: flex;
+   
+}
+
+  .row_last{
+    display:flex;
+  }
+
+
+  /*------------------------section-first------------------------*/
+  .main .container1 {
+    width:100%;
+    background-color: #011a11;
+    margin:0;
+  }
+
+  .search{
+    height: 63px;
+    width: 416px;
+    margin-bottom:8px;
+    padding-left:31px;
+    border-radius: 4px;
+
+  }
+  .heading-1{
+    margin-top: 109px;
+    padding-left: 70px;
+  }
+
+  .heading-2{
+    padding-left: 70px;
+    font-size: 3em;
+
+    }
+  .heading-3{
+    padding-left: 70px;
+  }
+  .a{
+    width:50%;
+    display:flex;
+    gap:1em;
+    justify-content: space-around;
+    padding-left: 353px;
+
+  }
+  .bottom-para{
+   
+    margin: 65px;
+  }
+
+ /*-----------------------second-section----------------------*/
+ 
+.image-secondsection{
+  margin-top: 111px;
+ 
+  padding-left: 101px;
+  width:468px;
+  
+}
+.subheading{
+  padding-top:100px;
+  padding-left: 101px;
+  color:white;
+}
+.sub_heading1{
+  font-family: ShopifySans, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04375em;
+  font-size: 1rem;
+  padding-top:10px;
+
+}
+.sub_heading2{
+  line-height: 1.3333333333;
+  font-weight: 400;
+  font-family: ShopifySans, Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  padding-top:10px;
+
+
+}
+.sub_heading3{
+  font-weight: 700;
+  line-height: 1.5;
+  padding-top:10px;
+
+}
+.sub_heading4{
+  padding-top: 9px;
+}
+
+.second_body{
+  background-color: #004c3f;
+}
+  
+    /*-----------------------card-section----------------------*/
+  .card-container-fluid{
+    background-color: #dff7e5;
+   
+    margin-left: 0px;
+
+  }
+  .card-container-fluid .card-heading{
+     font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+     font-size: 1em;
+    line-height: 1.5;
+    color: #6b7177;
+    font-weight: 400;
+   
+    padding: 50px;
+}
+  .card1-container{
+    background-color: white;
+    margin:19px;
+
+  }
+  .card-img-top{
+    margin:19px;
+    width: 315px;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+  
+  .card-link{
+    color: #008060;
+    padding-right: 1.2em;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.5;
+}
+  
+  .wraper{
+    width:1250px;
+    height:1000 vh;
+    margin:auto;
+    display:grid;
+ 
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr; 
+    background-color: #008060 ;
+    grid-gap:100px;
+    border-bottom:1 em;
+
+}
+
+
+/*-------------------section-six-------------*/
+.order{
+  font-size: 1.875em;
+    margin-bottom: 0.6em;
+    color: #212326;
+    line-height: 1.3333333333;
+    font-weight: 400;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+  }
+  .order-2{
+    font-weight: 400;
+    color: #6b7177;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+/*---------------------last-section----------*/
+.container .heading_last-section{
+  margin-top: 136px;
+  font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 2em;
+    line-height: 1.5;
+    color: #011a11;
+    font-weight: 400;
+   padding-left: 30px;
+      }
+
+.container form .row1 {
+  display:flex;
+  gap:1em;
+  text-align: center; 
+  padding-top: 124px;
+}
+
+
+.para-last-section{
+  font-size:20px;
+  margin-top: 16px;
+    color: #42474c;
+    padding-left: 100px;
+}
+
+ .footer .container{
+  background-color: #008060 ;
+ } 

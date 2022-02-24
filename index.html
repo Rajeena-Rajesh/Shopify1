@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopify</title>
+    <link rel="icon" href=data:image/jpeg;base64,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 type="image/gif" sizes="16x16">
+     
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    
+        <header class="bg-white"  style=" width:100% ;">  
+            <div class= "row ">
+                <div class="col-md-6 col-9  pl-5">
+                    <img src="images/logo2.PNG">
+                   
+                </div>
+                <div class="col-md-6 col-3 my-auto">
+               <nav class="navbar navbar-expand-lg navbar-light">
+          
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link text-black" href="#home-section"> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-black" href="#service-section">Start</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-black" href="#service-section">Sell</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-black" href="#service-section">Market</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-black" href="#service-section">Manage</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-black" href="#Experience-section">Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-black" href="#Experience-section">Learn</a>
+              </li>
+              
+             
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    
+                    <button class="btn btn-outline-success my-2 my-sm-0"  type="submit">Start Free Trial</button>
+                  </form>
+            
+          </div>
+        </nav>
+        </div>
+            </div>
+        
+    </header>
+    <!-------------body----------------------->
+    <!---------------section-first------>
+    <section-first>
+    <main_body class="main ">
+        <div class="container1 ">
+            <div class="row">
+                <div class="col-md-6 text-white">
+                    <h6 class="heading-1">YOUR RESTAURANT ONLINE ORDERING SOLUTION</h6>
+                    <br>
+                    <h1 class="heading-2">Built for your business, not <br>ours.</h1>
+                    <br>
+                    <h5 class="heading-3">Shopify gets your restaurant online fast.<br> So you can keep cooking without<br> sacrificing what matters.</h5>
+                    <br>
+                   
+                    <h6  class="bottom-para">Try Shopify free for 14 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.</h6>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+
+                 <div class="abc">
+
+                  <div class="first">
+                    <img src="images/start1.jpg" style="width: 302px;">  
+                    <img src="images/start2.jpg" style="margin-top:20px; margin-bottom:40px;height: 441px;">
+                  </div>
+                 <div col-6>
+                    <img src="images/start3.jpg" style="margin-top: 45px;margin-bottom:40px;height: 740px ;width:300px;">
+                  </div>
+                </div>
+
+                  </div>
+                </div>
+            </div>
+        
+      </section-first>
+      
+     
+ <!--------------------section-second-------------------------------------------------->     
+ <section-second>
+  <div class="second_body"> 
+  <div class="container-fluid">
+  
+     <div class="row">
+    <div class="col-lg-6 d-none d-lg-block">
+      <img src="images/sec_body.png" class="image-secondsection">
+
+    </div>
+    <div class="col-lg-6">
+
+
+    <div class="subheading ">
+      <h6 class="sub_heading1">EXPRESS THEME<h6>
+
+      <p class="sub_heading2"> A powerful <br>platform with a <br>familiar look<br></p>
+      <p class="sub_heading3">Quickly create a menu that looks and <br>feels the way your customers <br>expect, built on a platform trusted<br> by millions of independent business <br>owners like you across the world.<br><br></p>
+      
+      <p class="sub_heading4">See Shopify’s Express theme</p>
+    </div>
+    </div>
+  </div> 
+</div>
+</div>
+  </section> 
+
+</main_body>
+ <!-----------------------section-third-------------------------------------------------->   
+  <section-third style="overflow-x: hidden;">  
+        <div class="container3">
+          <div><h4 class="headline">Let your customers choose.</h4></div>
+             <div class="container">
+              
+               
+               
+               <div class="container">
+               <div class="one  ">
+                
+       
+           <div class="col-12 col-md-3 col-lg-3 ">
+             <h4>Curbside pickup</h4>
+             <p>Offer buy online for curbside pickup<br> from your retail location so payment<br> is handled in advance.</p>
+           </div>
+       
+           <div class="col-12 col-md-3 col-lg-3 ">
+           <h4>Local delivery</h4>
+           <p>Simply and safely deliver products<br> to local customers without having to<br> rely on logistics companies.</p>
+          </div>
+       
+             <div class="col-12 col-md-3 col-lg-3 ">
+             <h4>Tipping</h4>
+             <p>Your customers can show their <br>appreciation by adding a tip to their<br> order in checkout.</p>
+             </div>
+             <div class="col-3 d-none d-lg-block">
+               <img src="images/yellow.png">
+             </div>
+           </div>
+         </div>
+       </div>
+       </div>
+       </section-third> --> 
+
+<!-----------------------section-fourth-------------------------------------------------> 
+<section-four >
+  <div class="container">
+    <div class="row">
+      <div class="parent_image col-md-6"> <img src="images/preparing.jpg" style="overflow-x: hidden;">
+       
+        <div class="child_image box1"><img src="images/preparing2.jpg" ></div>
+
+      </div>
+      <div class="col-md-6">
+        <div class="content">
+          <div>
+        <h1 class="head-1">“I make pasta,</h1>
+       <h1 class="head-1">not websites.”</h1>
+      </div>
+
+      <div>
+        <h4 class="head-2">How Leo Baldassarre brought his fresh pasta restaurant online</h4>
+      </div>
+
+      <div>
+        <h6 class="head-3">It takes decades to learn how to make the perfect <br>pasta. That’s why we made sure it only takes <br>minutes to create the perfect store.</h6>
+      </div>
+
+      <div>
+        <h6 class="head-3">Shopify’s restaurant online ordering solution took <br>going online off Famiglia Baldassare’s plate so they <br>could get back to putting pasta on yours.</h6>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section-four>
+
+<!-----------------------section-fifth--------------------------------------------------> 
+<section-five>
+  <div class="container-fluid five">
+    <div class="row">
+      <div class="col-lg-6 col-12">
+        <img src="images/wine.jpg" >
+        </div>
+
+        <div class="col-lg-6 col-12">
+        <img src="images/side.jpg" >
+      </div>
+
+      </div>    
+    </div>
+  </div>
+</section-five>
+
+
+<!-----------------------section-six--------------------------------------------------> 
+<section-six>
+  <div class="container_order text-center" style="height: 400px;">
+    <h3 class="order"><br>Bring your restaurant orders <br>online with Shopify</h3><br>
+    <h5 class="order-2" style="    margin-bottom: 47px;">Join Leo and thousands of entrepreneurs who are<br> already taking online orders with Shopify.<br></h5>
+    <button class="btn btn-outline-success my-2 my-sm-0"  type="submit">Search</button>
+
+
+  </div>
+</section-six>
+
+<!-----------------card----------------------->
+<section-card>
+
+ 
+    <div class="card-container-fluid">
+    <div class="card-heading text-center"><h2>Learn more about getting your restaurant online with Shopify</h2></div>
+    <div class="row">
+
+    
+
+  <div class="col-lg-4">
+<div class="card1-container" style="width: 22rem;">
+  <img class="card-img-top" src="images/oven.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">How to Start an Online Food Business:<br> The Ultimate Guide</h5>
+    <p class="card-text">From production to shipping, this<br> guide covers everything to start a <br>food business online. </p>
+    <a href="#" class="card-link">Read about a online bussiness on blog</a>
+  </div>
+</div>
+</div>
+<div class=" col-lg-4">
+  <div class="card1-container" style="width: 22rem;">
+    <img class="card-img-top" src="images/tab.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">How to Start an Online Food Business:<br> The Ultimate Guide</h5>
+      <p class="card-text">Learn how to get your restaurant <br>set up for online ordering. </p>
+      <a href="#" class="card-link">Read about about restaurant tips on blog</a>
+    </div>
+  </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="card1-container" style="width: 22rem;">
+      <img class="card-img-top" src="images/car.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Resilient Retail: How to Move Your<br> Brick-and-Mortar Business Online</h5>
+        <p class="card-text">Want to offer local delivery? This <br>guide has the ins and outs. </p>
+        <a href="#" class="card-link">Read the quickstart guide on blog</a>
+      </div>
+      </div>
+         </div>
+        </div>
+      </div>
+
+</div>
+</div>
+</section-card>
+ 
+
+<!-----------------------footer--------------->
+
+      <section class="footer"  >
+
+        <div class="container">
+    
+            <div class="row">
+    
+                <div class="col-lg-4">
+                    <h1 style="color:white">Shopify</h1>
+                    
+                </div>
+    
+            <div class="col-lg-4 text-center" >
+                    <h3 style="color:white">links</h3>
+                    <a style="color:white" href="#">About</a>
+                    <a style="color:white"href="#">Careers</a>
+                    <a style="color:white"href="#">Press and media</a>
+                    <a style="color:white"href="#">Shopify Plus</a>
+                    <a style="color:white"href="#">Site</a>
+                  
+                </div>
+    
+                <div class="col-lg-4 text-center">
+                    <h3 style="color:white">share</h3>
+                    <a a style="color:white" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a style="color:white" href="https://youtu.be/mLw1nYiwfiA"><i class="fab fa-youtube"></i></a>
+                    <a style="color:white" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a style="color:white" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- <a style="color:white"href="#">Terms of service</a>
+                    <a style="color:white"href="#">Privacy Policy</a> -->
+                </div>
+    
+            </div>
+    
+        </div>
+    </section>
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/26a9c9ca35.js" crossorigin="anonymous"></script>  
+</body>
+</html>
